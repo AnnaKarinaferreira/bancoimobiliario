@@ -1,0 +1,40 @@
+.titulo{
+    margin-top: 15vh;
+    text-align: center;
+    font-size: 10vh;
+    font-family: 'Hello Bonia Serif', sans-serif;
+    color: rgb(101, 39, 158);
+}
+
+.perguntas{
+    margin-top: 10vh;
+    display: grid;
+    place-items: center;
+    font-size: 4vh;
+    row-gap: 5vh;
+    font-family: 'Brugenfield', sans-serif;
+}
+
+input{
+    width: 20vw;
+    padding: 8px 20px;
+    margin-left: 2vw;
+    border-radius: 2vw;
+    color: blueviolet;
+    border-color:rgb(101, 39, 158);
+}
+
+input[type=text]:focus{
+    background-color: rgb(244, 231, 255);
+}
+
+.btnStart{
+    margin-top: 8vh;
+    width: 10vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 6vh;
+    font-family: 'Hello Bonia Serif', sans-serif;
+    text-decoration: none;
+}
