@@ -1,0 +1,68 @@
+
+.corpo{
+    background-color: #ddd4c9;
+}
+.titulo{
+    margin-top: 15vh;
+    text-align: center;
+    font-size: 10vh;
+    font-family: 'Hello Bonia Serif', sans-serif;
+    color: #522258;
+}
+
+#nome1,
+#nome2,
+#nome3,
+#nome4{
+color: #f7e3ed;
+font-family: 'Avita Rounded', sans-serif;
+font-size: 2vw;
+}
+
+#numero1,
+#numero2,
+#numero3,
+#numero4{
+color: #8C3061;
+font-family: 'Avita Rounded', sans-serif;
+font-size: 2vw;
+}
+
+.gridJogadores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.button{
+   width: 5vw;
+   height: 2vw;
+   margin-right: 1vw;
+   color: #D95F59;
+   border: transparent;
+}
+
+.button:hover{
+    background-color: #C63C51;
+    color: #fff;
+    border-color: #fff;
+}
+
+#jogador1,
+#jogador2,
+#jogador3,
+#jogador4{
+    background-color: #dab0ae;
+    width: 15vw;
+    padding-left: 3vw;
+    padding-bottom: 2vw;
+    border-radius: 1vw;
+}
+#jogador1:hover,
+#jogador2:hover,
+#jogador3:hover,
+#jogador4:hover{
+    background-color: #c58b93;
+    color: #000000;
+    border-color: #fff;
+}

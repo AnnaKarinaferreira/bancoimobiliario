@@ -1,9 +1,19 @@
+.corpo{
+    background-color: #ddd4c9;
+}
 .titulo{
     margin-top: 15vh;
     text-align: center;
     font-size: 10vh;
     font-family: 'Hello Bonia Serif', sans-serif;
     color: rgb(101, 39, 158);
+}
+#User1,
+#User2,
+#User3,
+#User4{
+    background-color: #dab0ae;
+    border-color: transparent;
 }
 
 .perguntas{
@@ -13,6 +23,7 @@
     font-size: 4vh;
     row-gap: 5vh;
     font-family: 'Brugenfield', sans-serif;
+    border-color: transparent;
 }
 
 input{
@@ -22,6 +33,7 @@ input{
     border-radius: 2vw;
     color: blueviolet;
     border-color:rgb(101, 39, 158);
+
 }
 
 input[type=text]:focus{
@@ -30,6 +42,7 @@ input[type=text]:focus{
 
 .btnStart{
     margin-top: 8vh;
+    text-decoration: transparent !important;
     width: 10vw;
     display: block;
     margin-left: auto;
