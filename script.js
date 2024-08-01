@@ -1,33 +1,33 @@
-function botaoSoma (valor){
+function botaoSoma (id){
     var somar = parseInt(prompt("Digite o valor para somar"));
     if (isNaN(somar)){
         alert("Só dá de somar números");
         return;
     }
-    var valor = document.getElementById(valor);
+    var valor = document.getElementById(id);
     var valorAtualS = parseInt(valor.textContent.replace(/\./g,'').trim());
     if (isNaN(valorAtualS)) {
         alert("O valor atual não é um número válido");
         return;
     }
-    var resultadoSoma = valorAtualS + somar;
-    valor.textContent = resultadoSoma.toLocaleString();
+    resultadoSoma = valorAtualS + somar;
+    valor.textContent = resultadoSoma;
 }
 
-function botaoSub (valor){
+function botaoSub (id){
     var subtrair = parseInt(prompt("Digite o valor para subtrair"));
     if (isNaN(subtrair)){
         alert("Só dá de subtrair números");
         return;
     }
-    var valor = document.getElementById(valor);
+    var valor = document.getElementById(id);
     var valorAtualS = parseInt(valor.textContent.replace(/\./g,'').trim());
     if (isNaN(valorAtualS)) {
         alert("O valor atual não é um número válido");
         return;
     }
     var resultadoSub = valorAtualS - subtrair;
-    valor.textContent = resultadoSub.toLocaleString();
+    valor.textContent = resultadoSub;
 }
 
 function nomes(){
